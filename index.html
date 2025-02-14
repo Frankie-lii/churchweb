@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Mt Zion Church Logo">
+        </div>
+        <h1>Zion Mission Center</h1>
+        <nav>
+            <button class="auth-btn" id="signUpBtn">Sign Up</button>
+            <button class="auth-btn" id="signInBtn">Sign In</button>
+        </nav>
+    </header>
+
+    <section id="home" class="homepage">
+        <div class="overlay"></div>
+        <!-- Dark overlay for readability -->
+        <div class="welcome-content">
+            <h2>Welcome to Zion Mission Center</h2>
+            <p class="tagline">"A Place of Faith, Hope, and Love."</p>
+            <p class="intro">
+                At Zion Mission Center, we believe in transforming lives through the power of faith, worship, and community. Whether you're searching for spiritual renewal, a place to belong, or a deeper relationship with God, you are welcome here!
+            </p>
+            <p class="bible-verse">
+                "For where two or three gather in my name, there am I with them." – Matthew 18:20
+            </p>
+        </div>
+        <div class="pastor-message">
+            <img src="images/pastor.jpg" alt="Pastor Image">
+            <p>
+                <strong>From Our Pastor:</strong> "At Zion Mission Center, we are a family united by love and guided by faith. Come as you are, and let’s journey together in discovering God’s amazing purpose for our lives!"
+            </p>
+        </div>
+    </section>
+
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="content">
+            <h3>Our Mission</h3>
+            <p>To spread the love of Christ through worship, service, and community outreach.</p>
+
+            <h3>Our Vision</h3>
+            <p>To be a beacon of hope and faith, guiding people towards spiritual growth and transformation.</p>
+
+            <h3>Our History</h3>
+            <p>Founded in 1985, Zion Mission Center has grown into a vibrant congregation committed to serving God and the community.</p>
+
+            <h3>Our Beliefs</h3>
+            <p>We believe in the Holy Trinity, salvation through Jesus Christ, and the power of prayer and fellowship.</p>
+        </div>
+
+        <div class="images">
+            <img src="images/church_building.jpg" alt="Church Building">
+            <img src="images/leadership_team.jpg" alt="Leadership Team">
+        </div>
+    </section>
+
+
+    <!-- Sermons & Devotionals Section -->
+    <section id="sermons">
+        <h2>Sermons & Devotionals</h2>
+        <p>Access our latest sermons and daily devotionals to grow in faith.</p>
+
+        <div class="sermon-container">
+            <div class="sermon">
+                <img src="images/sermon_thumbnail1.jpg" alt="Sermon Thumbnail">
+                <h3>Faith in Hard Times</h3>
+                <p>Watch our latest sermon about staying strong in faith.</p>
+                <a href="#">Watch Now</a>
+            </div>
+            <div class="sermon">
+                <img src="images/sermon_thumbnail2.jpg" alt="Sermon Thumbnail">
+                <h3>The Power of Prayer</h3>
+                <p>Learn about the transformative power of prayer.</p>
+                <a href="#">Watch Now</a>
+            </div>
+        </div>
+
+        <div class="devotionals">
+            <h3>Daily Devotionals</h3>
+            <p>Read our daily devotionals to find inspiration and peace.</p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <!-- Events & Announcements Section -->
+    <section id="events">
+        <div class="container">
+            <h2>Upcoming Events & Announcements</h2>
+            <p>Stay updated with our latest church programs and gatherings.</p>
+
+            <div class="event">
+                <img src="images/youth_meeting.jpg" alt="Youth Meeting">
+                <div class="event-details">
+                    <h3>Youth Fellowship Meeting</h3>
+                    <p><strong>Date:</strong> March 10, 2025</p>
+                    <p><strong>Time:</strong> 5:00 PM - 7:00 PM</p>
+                    <p><strong>Location:</strong> Zion Mission Center Hall</p>
+                    <p>Join us for an inspiring session filled with worship, fellowship, and learning.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <img src="images/prayer_night.jpg" alt="Prayer Night">
+                <div class="event-details">
+                    <h3>Night of Prayer</h3>
+                    <p><strong>Date:</strong> March 15, 2025</p>
+                    <p><strong>Time:</strong> 9:00 PM - 12:00 AM</p>
+                    <p><strong>Location:</strong> Zion Mission Center Main Sanctuary</p>
+                    <p>Come and seek the Lord in a powerful time of prayer and intercession.</p>
+                </div>
+            </div>
+
+            <div class="event-calendar">
+                <img src="images/event_calendar.jpg" alt="Church Event Calendar">
+            </div>
+        </div>
+    </section>
+
+    <section id="ministries">
+        <h2>Our Ministries & Volunteer Opportunities</h2>
+        <p class="content">Join our various ministries and get involved in making a difference in our community.</p>
+
+        <div class="ministry-container">
+            <div class="ministry">
+                <img src="images/youth.jpg" alt="Youth Ministry">
+                <h3>Youth Ministry</h3>
+            </div>
+            <div class="ministry">
+                <img src="images/choir.jpg" alt="Choir Ministry">
+                <h3>Choir Ministry</h3>
+            </div>
+            <div class="ministry">
+                <img src="images/children.jpg" alt="Children's Ministry">
+                <h3>Children’s Ministry</h3>
+            </div>
+            <div class="ministry">
+                <img src="images/outreach.jpg" alt="Outreach Ministry">
+                <h3>Outreach Ministry</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="online-giving">
+        <h2>Online Giving & Donations</h2>
+        <p class="content">Support our ministry through tithes, offerings, and donations. Your generosity helps us make a difference.</p>
+
+        <div class="giving-options">
+            <div class="giving-method">
+                <img src="images/tithe.jpg" alt="Tithes Giving">
+                <h3>Tithes</h3>
+                <p>Give your tithes securely online and honor God with your first fruits.</p>
+                <button class="donate-btn">Give Now</button>
+            </div>
+
+            <div class="giving-method">
+                <img src="images/offering.jpg" alt="Offerings">
+                <h3>Offerings</h3>
+                <p>Make a freewill offering to support church activities and community outreach.</p>
+                <button class="donate-btn">Give Now</button>
+            </div>
+
+            <div class="giving-method">
+                <img src="images/donations.jpg" alt="General Donations">
+                <h3>Donations</h3>
+                <p>Support special programs, missions, and those in need through your generous donation.</p>
+                <button class="donate-btn">Donate</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us </h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Our Address</h3>
+                <p>123 Church Road<br>Karen, Nairobi County<br>Kenya</p>
+                <h3>Phone</h3>
+                <p>+254 700 000000</p>
+                <h3>Email</h3>
+                <p><a href="mailto:info@churchname.org">info@zionmissioncenter.org</a></p>
+                <h3>Follow Us</h3>
+                <div class="social-media">
+                    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></i></a>
+                    <a href="#" aria-label="Twitter"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" aria-label="YouTube"><i class='bx bxl-youtube' ></i></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="map">
+            <h3>Our Location</h3>
+            <img src="images/karen_map.jpg" alt="Map showing the location of the church in Karen, Nairobi County">
+        </div>
+    </section>
+
+    <section id="blog-testimonials">
+        <h2>Blog & Testimonials</h2>
+
+        <!-- Blog Section -->
+        <div class="blog-container">
+            <h3>Latest Blog Articles</h3>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <img src="images/blog1.jpg" alt="Faith and Life">
+                    <h4>How Faith Guides Daily Life</h4>
+                    <p>Discover how faith influences our daily choices and actions...</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="images/blog2.jpg" alt="Spiritual Growth">
+                    <h4>Steps to Spiritual Growth</h4>
+                    <p>Practical ways to strengthen your spiritual journey...</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="images/blog3.jpg" alt="Power of Prayer">
+                    <h4>The Power of Prayer</h4>
+                    <p>How prayer can transform lives and bring peace...</p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div class="testimonials-container">
+            <h3>Member Testimonials</h3>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <img src="images/member1.jpg" alt="Member Photo">
+                    <p>"Joining this church has transformed my faith and life completely."</p>
+                    <h4>- John Doe</h4>
+                </div>
+                <div class="testimonial">
+                    <img src="images/member2.jpg" alt="Member Photo">
+                    <p>"The sermons and community support have been a blessing to my family."</p>
+                    <h4>- Jane Smith</h4>
+                </div>
+                <div class="testimonial">
+                    <img src="images/member3.jpg" alt="Member Photo">
+                    <p>"A place where I have found true spiritual growth and encouragement."</p>
+                    <h4>- Michael Brown</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <!-- Church Logo -->
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Church Logo">
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#giving">Online Giving</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Service Times -->
+            <div class="footer-services">
+                <h4>Service Times</h4>
+                <p>Sunday Service: 11:00 AM - 1:30 PM</p>
+                <p>Wednesday Morning Service: 11:30 PM - 1:30 PM</p>
+                <p>Wednesday Evening Service: 7.00pm - 8:30pm</p>
+                <p>Tuesday Evening Prayers: 6:00 PM - 7:00 PM</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 True Light Church. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
